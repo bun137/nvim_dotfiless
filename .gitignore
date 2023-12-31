@@ -1,17 +1,3 @@
-# Project gitignore
-.luarc.json
-after
-coc-settings.json
-colors
-docs
-ftplugin
-ginit.vim
-lua/user
-neoconf.json
-plugin
-queries
-spell
-
 # Global gitignore
 # ----------------
 
