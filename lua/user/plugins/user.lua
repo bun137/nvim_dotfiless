@@ -9,10 +9,11 @@ return {
     setup = function() vim.g.mkdp_filetypes = { "markdown" } end,
     ft = { "markdown" },
     run = "cd app && npm install",
-  },  {
-        'barrett-ruth/live-server.nvim',
-        build = 'yarn global add live-server',
-        config = true
+  },  
+  {
+    'jbyuki/instant.nvim',
+    event = "VeryLazy",
+    autoStart = true,
   }
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
